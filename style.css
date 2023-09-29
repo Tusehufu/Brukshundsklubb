@@ -1,0 +1,61 @@
+body {
+background-color: #F3F3F5;
+}
+header {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column;   
+}
+#logIn {
+    font-size: xx-large;
+}
+.uppgifter {
+    width: 190px;
+    height: 20px;
+margin:0 auto;
+}
+#meddelande {
+text-align: center;
+font-size: 1.5vw;
+}
+.knapp {
+    padding: 5px 55px;
+    background-color:lightpink;
+    font-size: 20px;
+
+}
+#box {
+    border: 5px solid  #abdbe3; 
+    padding: 20px; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    border-radius: 20px;
+    text-align: center;
+}
+.bild {
+    width:30%;
+position: absolute;
+right: 0px;
+bottom: 0px;
+z-index: -1;
+}
+
+@media screen and (max-width: 1500px) {
+    header {
+        font-size: 2em;
+    }
+    #meddelande {
+        font-size: 2em;
+    }
+    h1, h2 {
+        font-size: 1em;
+    }
+    .bild {
+        position: relative;
+float: right;
+    }
+}

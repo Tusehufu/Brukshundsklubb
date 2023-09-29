@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brukshundsklubb</title>
+    <link rel ="stylesheet" href="style.css">
+
+</head>
+<body>    
+    <header>    
+        <h1> Välkommen till brukshundsklubben</h1>
+        <h2>Våra regler är följande:</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br> 
+            Sed at orci dictum, molestie justo eget, faucibus libero.</br> 
+            Duis ac pretium lacus, at hendrerit urna. Sed molestie gravida purus a bibendum.</br> 
+            Sed aliquam posuere purus vel porta. Morbi vel posuere eros.</br> 
+            Vestibulum consequat accumsan ipsum, ac lacinia diam fringilla ac.</br> 
+            Sed ut diam sapien. Nulla sed purus finibus, tincidunt libero quis, pretium lectus.</br> 
+            Sed tristique libero sem, sit amet consectetur felis vulputate vel. Aliquam erat volutpat.</br>
+        </p>
+     </header>
+
+<div id="box">
+    <div id ="logIn">
+        <div class="inputcontainer">
+            <label for="username"><b>Användarnamn:</b></label>
+            <input type="text" name="username" id="username" class="uppgifter">
+        </div>
+        <div class="inputcontainer">
+            <label for="password"><b>Lösenord:</b></label>
+            <input type="password" name="password" id="password" class="uppgifter">
+        </div>
+        
+        <button class="knapp" onclick="inloggning()">Logga in</button>   
+   
+    </div>          
+    <p id="meddelande"></p>
+</div>
+<img class="bild" src="hund.jpg" alt="hund">
+<script src ="script.js"></script>
+</body>
+</html>
